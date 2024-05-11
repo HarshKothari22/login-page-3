@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="ytregister.css">
+    <script defer src="ytregister.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form id="form" action="/">
+            <h1>registeration</h1>
+
+            <div class="input-control">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="email">E-mail</label>
+                <input type="text" name="email" id="email">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+                <div class="error"></div>
+            </div>
+            
+            <div class="input-control">
+                <label for="password2">Password Again</label>
+                <input type="password" name="password2" id="password2">
+                <div class="error"></div>
+            </div>
+
+            <button type="submit">Sign Up</button>
+
+        </form>
+    </div>
+</body>
+</html>
+
+
